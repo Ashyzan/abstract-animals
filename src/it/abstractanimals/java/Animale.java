@@ -11,5 +11,7 @@ public abstract class Animale {
 	
 	protected abstract void mangia();
 	
+	
+	
 
 }

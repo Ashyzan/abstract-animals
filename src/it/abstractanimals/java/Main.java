@@ -16,11 +16,20 @@ public class Main {
 		
 		Animale ilPasserotto = new Passerotto();
 		
-		
-		
 		ilPasserotto.mangia();
 		ilPasserotto.dormi();
 		ilPasserotto.verso();
+		
+		System.out.println();
+		
+		Palombo ilPalombo = new Palombo("Pinco");
+		
+		ilPalombo.faiNuotare();
+		ilPalombo.GrandezzaPinne();		
+		ilPalombo.getName();
+		
+		System.out.println();
+		
 
 		
 

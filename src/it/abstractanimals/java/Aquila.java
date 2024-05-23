@@ -27,7 +27,7 @@ public class Aquila extends Animale implements Ivolante {
 	
 	
 	public String toString() {
-		return super.toString() + "il mio nome è" + getName();
+		return super.toString() + " il mio nome è " + getName();
 		}
 
 }

@@ -10,7 +10,7 @@ public class Main {
 		ilDelfino.dormi();
 		ilDelfino.verso();
 		ilDelfino.getName();
-		
+		System.out.println(ilDelfino);
 		
 		System.out.println();
 	
@@ -20,6 +20,7 @@ public class Main {
 		ilPasserotto.mangia();
 		ilPasserotto.dormi();
 		ilPasserotto.verso();
+		System.out.println(ilPasserotto);
 		
 		System.out.println();
 		
@@ -27,7 +28,7 @@ public class Main {
 		Passerotto passi = new Passerotto("Passi" , "Passerotto");
 		
 		passi.vola();
-		
+		System.out.println(passi);
 		
 		System.out.println();
 
@@ -39,8 +40,9 @@ public class Main {
 		nessina.verso();
 		nessina.vola();
 		nessina.toString();
+		System.out.println(nessina);
 		
-		System.out.println();
+		
 		
 
 	}

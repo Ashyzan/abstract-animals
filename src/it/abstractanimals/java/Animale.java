@@ -36,7 +36,7 @@ public abstract class Animale {
 	// metodo toString
 	
 	public String toString() {
-	return "Gli animali sono parte della natura";
+	return "Gli animali sono parte della natura " + "Sono un " + tipoAnimale + " Il mio nome è " + name;
 	}
 
 }

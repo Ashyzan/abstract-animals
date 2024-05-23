@@ -4,7 +4,7 @@ public class Passerotto extends Animale {
 	
 private String name;
 	
-	public void Delfino(String name) {
+	public void nomePasserotto(String name) {
 		
 		this.name = name;
 		

@@ -2,13 +2,8 @@ package it.abstractanimals.java;
 
 public class Aquila extends Animale implements Ivolante {
 	
-private String name;
-	
-	public void Delfino(String name) {
-		
-		this.name = name;
-		
-		
+	public Aquila(String name) {
+		super(name);	
 	}
 	
 	@Override
@@ -30,13 +25,9 @@ private String name;
 		
 	}
 	
-	public String getName() {
-		return name;
-	}
-
-
-	public void setName(String name) {
-		this.name = name;
-	}
+	
+	public String toString() {
+		return super.toString() + "il mio nome è" + getName();
+		}
 
 }

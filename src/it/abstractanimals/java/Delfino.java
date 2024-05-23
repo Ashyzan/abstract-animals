@@ -1,15 +1,9 @@
 package it.abstractanimals.java;
 
-public class Delfino extends Animale {
+public class Delfino extends Animale implements Inuotante{
 	
-	private String name;
-	
-
-
 	public Delfino(String name) {
-		
-		this.name = name;
-		
+		super(name);
 		
 	}
 	
@@ -26,17 +20,19 @@ public class Delfino extends Animale {
 		System.out.println("Mangio pesci più piccoli");
 		
 	}
-	
-	public String getName() {
-		System.out.println("Sono un Delfino " + "il mio nome è " + name);
-		return name;
-	}
 
 
-	public void setName(String name) {
-		this.name = name;
+
+	@Override
+	public void nuota() {
+		System.out.println("Sono un animale che nuota");
+		
 	}
 	
+	
+	public String toString() {
+		return super.toString() + "il mio nome è" + getName();
+		}
 	
 
 }

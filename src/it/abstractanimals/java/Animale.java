@@ -4,13 +4,15 @@ public abstract class Animale {
 	
 	//attributo private ereditato così da tutti i figli
 	private String name;
-	
+	private String tipoAnimale;
 	
 	// costruttore che sarà ereditato da tutti i figli e 
 	// dovrà essere implementato con i propri parametri dai figli
-	public Animale(String name) {
-		
+	public Animale(String name , String tipoAnimale) {
+		this.tipoAnimale = tipoAnimale;
 		this.name = name;
+		System.out.println("Il mio nome è " + name );
+		System.out.println("Sono un " + tipoAnimale );
 	}
 
 
@@ -34,7 +36,7 @@ public abstract class Animale {
 	// metodo toString
 	
 	public String toString() {
-	return " Nome animale: " + name ;
+	return "Gli animali sono parte della natura";
 	}
 
 }

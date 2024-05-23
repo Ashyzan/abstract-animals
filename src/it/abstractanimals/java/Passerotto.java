@@ -1,10 +1,10 @@
 package it.abstractanimals.java;
 
-public class Passerotto extends Animale {
+public class Passerotto extends Animale implements Ivolante {
 	
 	
-	public Passerotto(String name) {
-	super(name);
+	public Passerotto(String name , String tipoAnimale) {
+		super(name , tipoAnimale);
 	
 	}
 
@@ -18,6 +18,13 @@ public class Passerotto extends Animale {
 	@Override
 	protected void mangia() {
 		System.out.println("Mangio lombrichi e insetti");
+		
+	}
+
+
+	@Override
+	public void vola() {
+		System.out.println("Io VOLOOOOOO cip cip ..");
 		
 	}
 	

@@ -2,8 +2,8 @@ package it.abstractanimals.java;
 
 public class Cane extends Animale {
 	
-	public Cane(String name) {
-		super(name);
+	public Cane(String name , String tipoAnimale) {
+		super(name , tipoAnimale);
 		
 	}
 

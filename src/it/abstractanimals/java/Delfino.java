@@ -2,8 +2,8 @@ package it.abstractanimals.java;
 
 public class Delfino extends Animale implements Inuotante{
 	
-	public Delfino(String name) {
-		super(name);
+	public Delfino(String name , String tipoAnimale) {
+		super(name , tipoAnimale);
 		
 	}
 	

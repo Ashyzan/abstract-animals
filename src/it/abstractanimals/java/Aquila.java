@@ -2,8 +2,8 @@ package it.abstractanimals.java;
 
 public class Aquila extends Animale implements Ivolante {
 	
-	public Aquila(String name) {
-		super(name);	
+	public Aquila(String name , String tipoAnimale) {
+		super(name , tipoAnimale);	
 	}
 	
 	@Override

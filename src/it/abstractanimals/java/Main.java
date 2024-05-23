@@ -4,7 +4,7 @@ public class Main {
 
 	public static void main(String[] args) {
 		
-		Delfino ilDelfino = new Delfino( "Jerry");
+		Delfino ilDelfino = new Delfino( "Jerry" , "Delfino");
 		
 		ilDelfino.mangia();
 		ilDelfino.dormi();
@@ -13,32 +13,26 @@ public class Main {
 		
 		
 		System.out.println();
+	
+		
+		Animale ilPasserotto = new Passerotto("Cippi", "Passerotto");
+		
+		ilPasserotto.mangia();
+		ilPasserotto.dormi();
+		ilPasserotto.verso();
+		
+		System.out.println();
+		
+		
+		Passerotto passi = new Passerotto("Passi" , "Passerotto");
+		
+		passi.vola();
+		
+		
+		System.out.println();
 
 		
-		
-		
-		
-		
-		
-		
-//		Animale ilPasserotto = new Passerotto();
-//		
-//		ilPasserotto.mangia();
-//		ilPasserotto.dormi();
-//		ilPasserotto.verso();
-//		
-//		System.out.println();
-//		
-//		Palombo ilPalombo = new Palombo("Pinco");
-//		
-//		ilPalombo.faiNuotare();
-//		ilPalombo.GrandezzaPinne();		
-//		ilPalombo.getName();
-//		
-//		System.out.println();
-//		
-		
-		Aquila  nessina = new Aquila("Nessina");
+		Aquila  nessina = new Aquila("Nessina" , "Aquila");
 		
 		nessina.mangia();
 		nessina.dormi();

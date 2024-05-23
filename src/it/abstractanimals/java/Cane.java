@@ -2,12 +2,8 @@ package it.abstractanimals.java;
 
 public class Cane extends Animale {
 	
-	private String name;
-	
-		public void Delfino(String name) {
-		
-		this.name = name;
-		
+	public Cane(String name) {
+		super(name);
 		
 	}
 
@@ -25,14 +21,6 @@ public class Cane extends Animale {
 	}
 
 
-	public String getName() {
-		return name;
-	}
-
-
-	public void setName(String name) {
-		this.name = name;
-	}
 	
 	
 
